@@ -107,6 +107,21 @@
   font-size: 15px;
 }
 
+.carousel-link {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.7;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: opacity 0.2s;
+}
+
+.carousel-link:hover {
+  opacity: 1;
+}
+
 .carousel-image-wrapper {
   flex: 1;
   display: flex;
