@@ -15,7 +15,7 @@ const Contact = () => {
               </a>
             </p>
             <h4>Education</h4>
-            <p>Master's in Computer Science(AI/ML)</p>
+            <p>Master's in Computer Science, UNC Charlotte</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
@@ -28,20 +28,12 @@ const Contact = () => {
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/saichetan/"
+              href="https://www.linkedin.com/in/sai-chetan-l"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
               Linkedin <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/therajeshchityal"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">

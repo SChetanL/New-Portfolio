@@ -5,34 +5,32 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "Automotive Sensor Intelligence Platform",
+    category: "Backend / System Design",
+    tools: "Python, System Design, Backend Development",
+    image: "/images/placeholder.webp",
+    link: "https://github.com/SChetanL/Automotive-Sensor-Intelligence",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "Intelligent Prompt Optimization Engine",
+    category: "Algorithm Design / AI",
+    tools: "Algorithm Design, GPT API, MCTS, Optimization",
+    image: "/images/placeholder.webp",
+    link: "",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
+    title: "Autonomous Agent Systems",
+    category: "AI / Simulation",
+    tools: "Python, PyTorch, DQN, PPO, Simulation Systems",
+    image: "/images/placeholder.webp",
+    link: "",
   },
   {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    title: "Monopoly Digital Banking Web App",
+    category: "Full-Stack Web Application",
+    tools: "JavaScript, React.js, Firebase, CSS",
+    image: "/images/placeholder.webp",
+    link: "https://github.com/SChetanL/Digital-Banking-Monopoly",
   },
 ];
 
@@ -112,6 +110,17 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        {project.link && (
+                          <a
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="carousel-link"
+                            data-cursor="disable"
+                          >
+                            View on GitHub ↗
+                          </a>
+                        )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">

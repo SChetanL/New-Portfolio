@@ -15,43 +15,45 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Master of Science, Computer Science</h4>
+                <h5>University of North Carolina at Charlotte</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2024–25</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Pursuing advanced studies in Computer Science with focus on
+              AI/ML, system design, and software engineering principles.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Software Development Engineer Intern</h4>
+                <h5>SmartBytes</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2022–23</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Architected and optimized backend data processing modules for
+              automotive telemetry systems, improving system reliability by 18%.
+              Designed high-throughput data pipelines processing 100K+ sensor
+              records, reducing execution latency by 25%. Increased computational
+              efficiency from 72% to 84% through algorithm refactoring and
+              deployed containerized services using Docker and Git.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Bachelor of Technology, Computer Science & Engineering</h4>
+                <h5>GITAM University</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2019–23</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Completed undergraduate studies in Computer Science and
+              Engineering, building a strong foundation in algorithms, data
+              structures, and software development practices.
             </p>
           </div>
         </div>
